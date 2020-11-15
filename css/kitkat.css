@@ -1,0 +1,74 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Eczar', serif;
+}
+
+.chatbtn {
+    color: white;
+    border-color: white;
+}
+
+.people {
+    margin-bottom: 7px;
+}
+
+.name {
+    //font-weight: bold;        
+}
+
+.status {
+    font-size: 0.8em;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .8em;
+    color: white;
+    margin: 5px 10px 25px 10px;
+    padding: 5px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;    
+}
+
+.speech-bubble-bot {
+	position: relative;
+	background: #DCDCDC;
+	border-radius: .8em;
+    margin: 5px 10px 25px 10px;
+    padding: 5px;
+}
+
+.speech-bubble-bot:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #DCDCDC;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;  
+}
