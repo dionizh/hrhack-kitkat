@@ -13,13 +13,15 @@
   font-family: 'Eczar', serif;
   font-size: 20pt;
 }
-.site-header a {
+.site-header a,
+.site-header button {
   color: white;
   transition: ease-in-out color .15s;
   font-weight: bold;
   letter-spacing: 2px;
 }
-.site-header a:hover {
+.site-header a:hover,
+.site-header button:hover {
   color: white;
   text-decoration: none;
 }
